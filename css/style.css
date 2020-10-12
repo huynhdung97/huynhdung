@@ -1,0 +1,416 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	src:url(../font/seguisb.ttf);
+	font-family: 'Segoe UI';
+}
+@font-face{
+	src: url(../font/DP_Didot-HTF-M96-Medium.otf);
+	font-family: "DPDidot"
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+#wrapper{
+	width: 1920px;
+	height: 2555px;
+	background-color: #F5F5F5
+}
+.header{
+	width: 1920px;
+	height: 600px;
+/*	background: #DAC6FF*/
+	background: url(../img/Background.jpg)
+}
+.header-main{
+	width:1860px;
+	height: 600px;
+/*	background: #B8FBFF;*/
+	float: left
+}
+.top-bar{
+	width:60px;
+	height: 600px;
+/*	background: #CDFFCE;*/
+	float: left
+}
+.social{
+	width: 60px;
+	height: 272px;
+	background: hsla(0,0%,100%,0.44);
+	text-align: center;
+	margin-top:164px
+}
+.social img{
+	width: 40px;
+	margin-top: 20px;
+}
+.menu{
+	width:1860px;
+	height:100px;
+/*	background: #3F44AB;*/
+	float: left	
+}
+.menu ul{
+	list-style: none;
+	text-align: center
+}
+.menu ul li{
+	display: inline-block;
+	width:150px;
+	height: 100px;
+/*	background: #FF5D5D;*/
+	text-align: center;
+	line-height: 100px;
+	font-size: 20px;
+	font-family: "Segoe UI"
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #000000
+}
+.menu ul li a:hover{
+	color: white;
+}
+.logo{
+	width: 300px;
+	height: 250px;
+/*	background: #FFFFFF;*/
+	margin: 0 auto
+}
+.logo img{
+	height: 300px;
+	margin-top: -40px;
+}
+.box-wrapper{
+	width:1860px;
+	height:60px;
+/*	background: #E43336;*/
+	float: left;
+	margin-top: 190px
+}
+.big-box{
+	width:1200px;
+	height:60px;
+/*	background: #FFFCFC;*/
+	margin: 0 auto
+}
+.box-1{
+	width: 242px;
+	height:52px;
+	background: hsla(0,0%,100%,0.00);
+	float: left;
+	border: 4px solid black;
+	text-align: center;
+	line-height: 52px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Segoe UI";
+	color:#000000
+}
+.box-1:hover{
+	box-shadow: 4px 7px 5px #8a8a89;
+}
+.box-2{
+	width: 250px;
+	height:60px;
+	background: #000000;
+	float: right;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 60px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Segoe UI"
+}
+.box-2:hover{
+	box-shadow: 4px 7px 5px #8a8a89;
+}
+.content{
+	width: 1920px;
+	height: 1600px;
+/*	background: #FF9E9F*/;
+}
+.wrapper-1{
+	width: 1910px;
+	height: 250px;
+/*	background: #A1CFFF;*/
+	margin: 0 auto;
+	margin-top: 50px
+}
+.box-header{
+	width:800px;
+	height: 100px;
+/*	background: #FFC6F9;*/
+	margin: 0 auto
+}
+.coming{
+	width:500px;
+	height:30px;
+/*	background: #FFEBEC;*/
+	text-align: center;
+	margin: 0 auto;
+	line-height: 30px;
+	font-family: "Segoe UI";
+	font-size: 30px
+}
+.exhibition{
+	width:700px;
+	height: 70px;
+/*	background: #BCFFCA;*/
+	margin: 0 auto;
+	font-family: "DPDidot";
+	font-size: 40px;
+	line-height: 70px;
+	text-align: center	
+}
+.wrapper-2{
+	width: 1910px;
+	height: 500px;
+/*	background: #FF7731;*/
+	margin: 0 auto;
+	margin-top: 20px;	
+}
+.three-box{
+	width: 1580px;
+	height: 500px;
+/*	background: #975FFF;*/
+	margin:0 auto
+}
+.text{
+	width:1580px;
+	height:100px;
+/*	background: #2C3074;*/
+	float: left;
+	margin-top: 50px;
+	text-align: right;
+	line-height: 100px;
+	font-family: "DPDidot";
+	font-size: 35px
+}
+.box-3{
+	width:500px;
+	height:350px;
+/*	background: #FFE2E3;*/
+	float: left
+}
+.picture-1{
+	width: 500px;
+	height: 300px;
+	background: url(../img/picture-1.jpg)
+}
+.name-1{
+	width:500px;
+	height: 60px;
+	background: #FFFFFF;
+	font-family: "segoe ui";
+	font-size:20px;
+	text-align: center;
+	line-height: 60px
+}
+.box-4{
+	width:500px;
+	height:350px;
+/*	background: #FFE2E3;*/
+	float: left;
+	margin-left: 40px
+}
+.picture-2{
+	width: 500px;
+	height: 300px;
+	background: url(../img/picture-2.jpg)
+}
+.name-2{
+	width:500px;
+	height: 60px;
+	background: #FFFFFF;
+	font-family: "segoe ui";
+	font-size:20px;
+	text-align: center;
+	line-height: 60px;
+}
+.box-5{
+	width:500px;
+	height:350px;
+/*	background: #FFE2E3;*/
+	float: left;
+	margin-left: 40px
+}
+.picture-3{
+	width: 500px;
+	height: 300px;
+	background: url(../img/picture-3.jpg)
+}
+.name-3{
+	width:500px;
+	height: 60px;
+	background: #FFFFFF;
+	font-family: "segoe ui";
+	font-size:20px;
+	text-align: center;
+	line-height: 60px
+}
+.wrapper-3{
+	width: 1920px;
+	height: 750px;
+/*	background: #FF7731;*/
+	margin: 0 auto;
+	margin-top: 30px;	
+}
+.header-wrapper3{
+	width: 1920px;
+	height: 180px;
+	background:  hsla(0,0%,100%,0.64);
+}
+.four-box{
+	width: 1580px;
+	height: 180px;
+/*	background: #FFDFAC;*/
+	margin: 0 auto;
+}
+.four-box img{
+	height:80px;
+	margin-left: 250px;	
+	margin-top:30px
+}
+.text-box{
+	width:1580px;
+	height: 30px;
+/*	background: #3666FF;*/
+	margin-top: 15px
+}
+.text-1{
+	width:100px;
+	height: 30px;
+/*	background: #FFE8E8;*/
+	float: left;
+	margin-left: 240px;
+	font-size: 25px;
+	text-align: center;
+	font-family: "Segoe UI";
+	color: #000000
+}
+.text-2{
+	width:90px;
+	height: 30px;
+/*	background: #FFE8E8;*/
+	float: left;
+	margin-left: 240px;
+	font-size: 25px;
+	text-align: center;
+	font-family: "Segoe UI";
+	color: #000000
+}
+.text-3{
+	width:90px;
+	height: 30px;
+/*	background: #FFE8E8;*/
+	float: left;
+	margin-left: 240px;
+	font-size: 25px;
+	text-align: center;
+	font-family: "Segoe UI";
+	color: #000000
+}
+.text-4{
+	width:90px;
+	height: 30px;
+/*	background: #FFE8E8;*/
+	float: left;
+	margin-left: 250px;
+	font-size: 25px;
+	text-align: center;
+	font-family: "Segoe UI";
+	color: #000000
+}
+.footer-wrapper3{
+	width:1580px;
+	height:400px;
+/*	background: #CE5FFF;*/
+	margin: 0 auto;
+	margin-top:150px
+}
+.circle{
+	border:1px solid none;
+	border-radius: 50%;
+	background: url(../img/artist.jpg);
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+}
+.body-text1{
+	text-align: center;
+	margin-top: 15px;
+	font-family: "DPDidot";
+	font-size: 50px;
+}
+.body-text2{
+	text-align: center;
+	font-family: "Segoe UI";
+	font-size: 30px
+}
+.body-text3{
+	width:350px;
+	height: 100px;
+/*	background: #FFF9F9;*/
+	font-family: "Segoe UI";
+	font-size: 15px;
+	margin: 0 auto;
+	margin-top: 10px
+}
+.footer{
+	width:1920px;
+	height:300px;
+	background: #d3d3d3;
+	border-top: 5px solid black
+}
+.footer img{
+	height: 40px;
+	margin-left: 450px;
+	margin-top:80px
+}
+.footer-box{
+	width:1920px;
+	height: 100px;
+/*	background: #FFC4C5*/
+}
+.footer-1{
+	width:300px;
+	height: 50px;
+	font-family: "Segoe UI";
+	font-size: 20px;
+/*	background: #FFA3A4;*/
+	float: left;
+	margin-left: 330px;
+	margin-top:10px
+}
+.footer-2{
+	width:300px;
+	height: 50px;
+	font-family: "Segoe UI";
+	font-size: 20px;
+/*	background: #FFA3A4;*/
+	float: left;
+	margin-left: 250px;
+	margin-top:10px
+}
+.footer-3{
+	width:300px;
+	height: 50px;
+	font-family: "Segoe UI";
+	font-size: 20px;
+/*	background: #FFA3A4;*/
+	float: left;
+	margin-left: 120px;
+	margin-top:10px
+}
+.footer-slogan{
+	width:1920px;
+	height: 60px;
+	font-family: "DPDidot";
+	font-size:25px;
+/*	background: #A4FFAB;*/
+	text-align: center;
+	line-height: 60px
+}
